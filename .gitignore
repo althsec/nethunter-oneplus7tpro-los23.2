@@ -1,0 +1,21 @@
+# Never commit firmware / OS images / large binaries (huge + redistribution issues)
+*.zip
+*.img
+*.apk
+*.bin
+*.mbn
+*.elf
+*.ops
+
+# But DO keep screenshots
+!screenshots/**
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+.obsidian/
